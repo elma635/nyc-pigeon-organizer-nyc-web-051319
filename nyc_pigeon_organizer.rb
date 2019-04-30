@@ -27,6 +27,8 @@ def nyc_pigeon_organizer(data)
             new_hash[name] ||= {} #or else operation -- if it already has a name, it'll move on and be assigned the next name
               new_hash[name][property] ||= [] #each name iterates and points to property that has an array
                 [] << [option]
+
+                binding.pry 
                   new_hash[name][property][option]
 
 
