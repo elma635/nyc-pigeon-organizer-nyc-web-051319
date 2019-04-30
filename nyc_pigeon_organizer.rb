@@ -28,7 +28,7 @@ def nyc_pigeon_organizer(data)
               #name is set first in the hash as the format goes
                 new_hash[name][property] ||= [] #each name iterates and points to property that has an array
                   binding.pry
-                  new_hash[name][property] << [option]  
+                  new_hash[name][property] << option.to_s 
 
                 end
               end
