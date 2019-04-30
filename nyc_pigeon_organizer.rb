@@ -29,15 +29,6 @@ def nyc_pigeon_organizer(data)
                 new_hash[name][property] ||= [] #each name iterates and points to property that has an array
                   new_hash[name][property][option] ||= []
   binding.pry
-
-                #binding.pry
-                # if new_hash[name].has_key? (property)
-                #     new_hash[name][property] = []
-                #
-                #     if new_hash[name][property].include?(attribute)
-                #     new_hash[name][property]<< attribute.to_s
-
-                  #end
                 end
               end
             end
