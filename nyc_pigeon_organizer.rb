@@ -28,11 +28,9 @@ def nyc_pigeon_organizer(data)
               #name is set first in the hash as the format goes
                 new_hash[name][property] ||= [] #each name iterates and points to property that has an array if its already not set to one
                   new_hash[name][property] << option.to_s
-                  # :property key is color, gender, lives
-                   # :option is a key that you have to changed into a string bc before it was :purple, :male, :white
-                  # "male", "female" then gets pushed into the hash as a string to the array 
-
-                  binding.pry
+                    # :property key is color, gender, lives
+                    # :option is a key that you have to changed into a string bc before it was :purple, :male, :white
+                    # "male", "female" then gets pushed into the hash as a string to the array 
                 end
               end
             end
